@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T09:36:53.615Z",
+  "updatedAt": "2026-10-18T09:39:25.511Z",
   "projects": [
     {
       "id": "network-watch",
@@ -93,7 +93,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": true
+      "visible": false
     },
     {
       "id": "duospark",
