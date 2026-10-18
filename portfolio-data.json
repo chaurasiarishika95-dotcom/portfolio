@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T09:35:29.483Z",
+  "updatedAt": "2026-10-18T09:36:53.615Z",
   "projects": [
     {
       "id": "network-watch",
@@ -117,27 +117,6 @@
       "visible": true
     },
     {
-      "id": "district-analysis",
-      "title": "District by Zomato Analysis",
-      "subtitle": "Product & marketplace analysis",
-      "category": "Product Analysis",
-      "description": "A product-analysis project exploring the District experience, user feedback, feature opportunities, and city-level performance through structured analysis and dashboard thinking.",
-      "tags": [
-        "Product analytics",
-        "Marketplace",
-        "Power BI"
-      ],
-      "theme": "green",
-      "live": "",
-      "github": "",
-      "caseStudy": "",
-      "companies": [
-        "product-ai",
-        "marketing"
-      ],
-      "visible": false
-    },
-    {
       "id": "regional-ordering",
       "title": "Regional Language Smart Ordering Bot",
       "subtitle": "Conversational ordering concept",
@@ -156,7 +135,7 @@
         "amazon",
         "product-ai"
       ],
-      "visible": true
+      "visible": false
     }
   ],
   "companies": [
@@ -199,13 +178,13 @@
   "settings": {
     "heroTitle": "Bridging business, tech & users",
     "heroDescription": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
-    "approachTitle": "Clear thinking.\nPractical execution.",
-    "education": "PGDM · Marketing & Operations\nIMT Hyderabad · Top 5% of batch",
+    "approachTitle": "Clear thinking.Practical execution.",
+    "education": "PGDM · Marketing & OperationsIMT Hyderabad · Top 5% of batch",
     "about1": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
     "about2": "Outside work, I build product prototypes to explore network optimisation, customer experiences, and ways AI can solve real-world problems.",
     "contactTitle": "Let’s connect.",
     "contactText": "Open to conversations about AI products, product management, and operational problem-solving.",
     "email": "chaurasiarishika848@gmail.com",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/rishika-chaurasia-81145a152/"
   }
 }
