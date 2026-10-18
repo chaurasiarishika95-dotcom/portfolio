@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T08:44:18.344Z",
+  "updatedAt": "2026-10-18T09:35:29.483Z",
   "projects": [
     {
       "id": "network-watch",
@@ -135,7 +135,7 @@
         "product-ai",
         "marketing"
       ],
-      "visible": true
+      "visible": false
     },
     {
       "id": "regional-ordering",
