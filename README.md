@@ -1,26 +1,20 @@
-# Rishika's company-wise portfolio — GitHub + Vercel
+# Rishika Portfolio — Central Save (GitHub + Vercel, no Supabase)
 
-## Files
-- `index.html` — portfolio website and browser-based content editor.
-- `portfolio-data.json` — published projects and company page configuration.
+## Included
+- `index.html`: portfolio and admin editor
+- `portfolio-data.json`: central published content
+- `api/save.js`: Vercel serverless endpoint that commits updates to GitHub
 
-## First deployment
-1. Create a new GitHub repository (for example, `rishika-portfolio`).
-2. Upload `index.html`, `portfolio-data.json`, and this README to the repository root.
-3. In Vercel, import that GitHub repository and deploy it. The default settings are fine for a static HTML site.
-4. Once deployed, open `https://YOUR-SITE.vercel.app/?admin=1` to show the editor. The public website is `https://YOUR-SITE.vercel.app/`.
+## Setup
+1. Upload `index.html`, `portfolio-data.json`, and the `api` folder to the root of the GitHub repository connected to Vercel.
+2. In GitHub, create a fine-grained personal access token scoped only to this repository, with **Contents: Read and write** permission. Never put the token in the HTML.
+3. In Vercel → Project → Settings → Environment Variables, add `GITHUB_TOKEN`, `GITHUB_OWNER` (GitHub username/org), `GITHUB_REPO` (repository name), `GITHUB_BRANCH` (usually `main`), and `ADMIN_PASSWORD` (long unique admin password).
+4. Redeploy after adding variables.
+5. Open `https://YOUR-DOMAIN/?admin=1`, edit content, enter the admin password, and click **Save & publish all changes**. The API commits the JSON to GitHub and Vercel redeploys.
 
-## Publishing future changes
-1. Open the deployed site with `?admin=1`.
-2. Make project/company changes in Manage Projects / Manage Companies.
-3. Click **Export site data**. It downloads a file named `portfolio-data.json` containing both projects and companies.
-4. Open your GitHub repository and select `portfolio-data.json`.
-5. Click the pencil (Edit this file), replace the whole contents with the downloaded JSON, and commit the change.
-6. Vercel redeploys automatically. Wait for the deployment to finish, then refresh the public site.
-
-You can also import an existing `portfolio-data.json` in the editor before making more changes.
-
-## Important limitations
-- This is a static publishing workflow, not a cloud database or a secure CMS. The editor saves drafts in the current browser. Public visitors see the committed `portfolio-data.json` file.
-- The `?admin=1` URL is not password-protected. Do not treat it as a security boundary. Anyone can open the editor UI, but edits only affect their own browser until they export and commit data to your GitHub repository. Protect your GitHub account with a strong password and two-factor authentication.
-- Do not store secrets or private information in `portfolio-data.json`; it is public website content.
+## Notes
+- No Supabase/database required; GitHub's JSON file is the central content store.
+- Save buttons for an individual project/section save to the browser draft; **Central Save & Publish** makes the changes public.
+- The password is checked server-side; `?admin=1` only reveals the editor.
+- Keep GitHub 2FA enabled. Use a repository-scoped token only.
+- This makes selected main-page sections editable (headline, intro, approach, education, about paragraphs, contact text/email/LinkedIn), along with projects and companies. Some visual layout/design text remains in the HTML.

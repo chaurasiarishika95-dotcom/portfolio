@@ -195,5 +195,17 @@
       "desc": "Selected work across product analysis, customer experience, marketplaces, and digital growth.",
       "visible": true
     }
-  ]
+  ],
+  "settings": {
+    "heroTitle": "Bridging business, tech & users",
+    "heroDescription": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
+    "approachTitle": "Clear thinking.\nPractical execution.",
+    "education": "PGDM · Marketing & Operations\nIMT Hyderabad · Top 5% of batch",
+    "about1": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
+    "about2": "Outside work, I build product prototypes to explore network optimisation, customer experiences, and ways AI can solve real-world problems.",
+    "contactTitle": "Let’s connect.",
+    "contactText": "Open to conversations about AI products, product management, and operational problem-solving.",
+    "email": "chaurasiarishika848@gmail.com",
+    "linkedin": ""
+  }
 }
