@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T08:44:18.344Z",
+  "updatedAt": "2026-10-18T19:22:57.811Z",
   "projects": [
     {
       "id": "network-watch",
@@ -93,7 +93,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": true
+      "visible": false
     },
     {
       "id": "duospark",
@@ -135,7 +135,7 @@
         "product-ai",
         "marketing"
       ],
-      "visible": true
+      "visible": false
     },
     {
       "id": "regional-ordering",
@@ -156,7 +156,7 @@
         "amazon",
         "product-ai"
       ],
-      "visible": true
+      "visible": false
     }
   ],
   "companies": [
