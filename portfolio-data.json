@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-18T08:44:18.344Z",
+  "projects": [
+    {
+      "id": "network-watch",
+      "title": "Network Watch",
+      "subtitle": "AI-powered transportation network control tower",
+      "category": "Network & Operations",
+      "description": "A planner-in-the-loop control tower concept that brings disruption signals, network risk, and rerouting recommendations into one decision workflow. Designed to help planners assess operational impact and act on disruptions.",
+      "tags": [
+        "Network intelligence",
+        "Capacity planning",
+        "AI copilot",
+        "Optimization"
+      ],
+      "theme": "darkart",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "amazon",
+        "delhivery",
+        "product-ai"
+      ],
+      "visible": true
+    },
+    {
+      "id": "expansation",
+      "title": "Expansation",
+      "subtitle": "Network & assortment planner",
+      "category": "Network & Operations",
+      "description": "A planning prototype combining capacity constraints, configurable scenarios, and optimization recommendations to support data-driven network and assortment decisions.",
+      "tags": [
+        "Optimization",
+        "Capacity constraints",
+        "Scenario planning",
+        "Operations"
+      ],
+      "theme": "green",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "amazon",
+        "delhivery",
+        "product-ai"
+      ],
+      "visible": true
+    },
+    {
+      "id": "visa-assistant",
+      "title": "AI Visa Assistant",
+      "subtitle": "Conversational AI for Global Mobility",
+      "category": "AI Product",
+      "description": "An internal AI assistant built around a RAG/NLP approach. I defined the use case and conversation flows, shaped action-oriented document workflows, specified prompt guardrails and fallbacks, and coordinated answer-quality feedback and UAT. Query turnaround reduced from approximately 60 minutes to 15 minutes.",
+      "tags": [
+        "RAG",
+        "NLP",
+        "Prompt guardrails",
+        "Human-in-the-loop",
+        "UAT"
+      ],
+      "theme": "blue",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "amazon",
+        "delhivery",
+        "product-ai"
+      ],
+      "visible": true
+    },
+    {
+      "id": "genai-reporting",
+      "title": "GenAI Reporting Assistant",
+      "subtitle": "Natural-language questions over live data",
+      "category": "AI Product",
+      "description": "Coordinated delivery of an LLM-based text-to-SQL reporting assistant that lets business users ask questions in natural language, replacing 20–30-minute manual Excel reporting cycles with responses in seconds. Worked through model cost/latency trade-offs and output accuracy checks.",
+      "tags": [
+        "LLMs",
+        "Text-to-SQL",
+        "SQL",
+        "Cost & latency"
+      ],
+      "theme": "lilac",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "amazon",
+        "delhivery",
+        "product-ai"
+      ],
+      "visible": true
+    },
+    {
+      "id": "duospark",
+      "title": "DuoSpark",
+      "subtitle": "Couple experience platform",
+      "category": "Customer Experience",
+      "description": "A live customer-facing product prototype with in-app video calling and an option to shop from Amazon. Built using AI-assisted development, from identifying a user need through shipping the experience.",
+      "tags": [
+        "Product discovery",
+        "Customer experience",
+        "AI-assisted development"
+      ],
+      "theme": "peach",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "amazon",
+        "product-ai"
+      ],
+      "visible": true
+    },
+    {
+      "id": "district-analysis",
+      "title": "District by Zomato Analysis",
+      "subtitle": "Product & marketplace analysis",
+      "category": "Product Analysis",
+      "description": "A product-analysis project exploring the District experience, user feedback, feature opportunities, and city-level performance through structured analysis and dashboard thinking.",
+      "tags": [
+        "Product analytics",
+        "Marketplace",
+        "Power BI"
+      ],
+      "theme": "green",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "product-ai",
+        "marketing"
+      ],
+      "visible": true
+    },
+    {
+      "id": "regional-ordering",
+      "title": "Regional Language Smart Ordering Bot",
+      "subtitle": "Conversational ordering concept",
+      "category": "Automation",
+      "description": "A prototype concept for enabling customers to place food orders through a regional-language conversational experience, connecting natural-language interactions with ordering workflows.",
+      "tags": [
+        "Conversational AI",
+        "Regional languages",
+        "Automation"
+      ],
+      "theme": "blue",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "amazon",
+        "product-ai"
+      ],
+      "visible": true
+    }
+  ],
+  "companies": [
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "title": "Portfolio for Amazon",
+      "desc": "Selected work in network intelligence, operational optimisation, AI workflows, and measurable product execution.",
+      "visible": true
+    },
+    {
+      "id": "delhivery",
+      "name": "Delhivery",
+      "title": "Portfolio for Delhivery",
+      "desc": "Selected work relevant to network intelligence, capacity planning, operational workflows, AI assistants, and feedback-driven product delivery.",
+      "visible": true
+    },
+    {
+      "id": "product-ai",
+      "name": "AI & Product Roles",
+      "title": "AI & Product Portfolio",
+      "desc": "AI product delivery, evaluation workflows, LLM-enabled reporting, and customer-facing product builds.",
+      "visible": true
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard",
+      "title": "Portfolio for Mastercard",
+      "desc": "Selected work in product analysis, AI-enabled workflows, analytics, and cross-functional delivery.",
+      "visible": true
+    },
+    {
+      "id": "marketing",
+      "name": "Product & Growth Roles",
+      "title": "Product & Growth Portfolio",
+      "desc": "Selected work across product analysis, customer experience, marketplaces, and digital growth.",
+      "visible": true
+    }
+  ]
+}
