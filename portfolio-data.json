@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T17:12:04.050Z",
+  "updatedAt": "2026-10-18T17:28:01.104Z",
   "projects": [
+    {
+      "id": "echogifts-india-ai-gifting-platform",
+      "title": "EchoGifts India — AI Gifting Platform",
+      "category": "AI Product",
+      "subtitle": "AI-powered gifting that personalises gift discovery around preferences, occasions and relationships",
+      "description": "Built an AI-assisted gifting platform prototype to simplify gift discovery and personalisation. Designed the experience around recipient preferences, occasions and gifting intent, helping users explore relevant gift ideas through a streamlined interface. Developed and deployed an interactive web prototype using AI-assisted development. The project explores how conversational AI and personalisation can improve product discovery and customer experience.",
+      "tags": [
+        "Personalisation",
+        "Product Discovery",
+        "Customer Experience",
+        "Generative AI"
+      ],
+      "theme": "green",
+      "live": "https://gifting-kappa.vercel.app/",
+      "github": "https://github.com/chaurasiarishika95-dotcom/gifting",
+      "caseStudy": "",
+      "companies": [],
+      "visible": true
+    },
+    {
+      "id": "voicebot-ai-post-sales-travel-assistant",
+      "title": "Voicebot — AI Post-Sales Travel Assistant",
+      "category": "Customer Experience",
+      "subtitle": "AI voice agent for post-booking travel support, cancellations and human handoffs",
+      "description": "Built an AI-powered voice assistant prototype for post-booking travel support, designed to help individual and corporate travellers resolve queries, explore cancellation support and escalate complex cases to a human agent. The project focuses on reducing repetitive support effort and creating a smoother customer experience through conversational interactions and structured handoffs. Includes a live interactive prototype and supporting case study.",
+      "tags": [
+        "AI Agents",
+        "Conversational AI",
+        "Voice UX",
+        "Customer Experience",
+        "Travel Technology",
+        "Workflow Automation",
+        "Human Handoff",
+        "Product Management"
+      ],
+      "theme": "peach",
+      "live": "https://voicebot-delta-livid.vercel.app/",
+      "github": "https://github.com/chaurasiarishika95-dotcom/voicebot",
+      "caseStudy": "",
+      "companies": [],
+      "visible": true
+    },
     {
       "id": "network-watch",
       "title": "Network Watch",
