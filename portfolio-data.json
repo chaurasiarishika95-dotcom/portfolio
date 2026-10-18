@@ -1,54 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T19:14:21.989Z",
+  "updatedAt": "2026-10-18T08:44:18.344Z",
   "projects": [
-    {
-      "id": "echogifts-india-ai-gifting-platform",
-      "title": "EchoGifts India — AI Gifting Platform",
-      "category": "AI Product",
-      "subtitle": "AI-powered gifting that personalises gift discovery around preferences, occasions and relationships",
-      "description": "Built an AI-assisted gifting platform prototype to simplify gift discovery and personalisation. Designed the experience around recipient preferences, occasions and gifting intent, helping users explore relevant gift ideas through a streamlined interface. Developed and deployed an interactive web prototype using AI-assisted development. The project explores how conversational AI and personalisation can improve product discovery and customer experience.",
-      "tags": [
-        "Personalisation",
-        "Product Discovery",
-        "Customer Experience",
-        "Generative AI"
-      ],
-      "theme": "green",
-      "live": "https://gifting-kappa.vercel.app/",
-      "github": "https://github.com/chaurasiarishika95-dotcom/gifting",
-      "caseStudy": "",
-      "companies": [],
-      "visible": false
-    },
-    {
-      "id": "voicebot-ai-post-sales-travel-assistant",
-      "title": "Voicebot — AI Post-Sales Travel Assistant",
-      "category": "Customer Experience",
-      "subtitle": "AI voice agent for post-booking travel support, cancellations and human handoffs",
-      "description": "Built an AI-powered voice assistant prototype for post-booking travel support, designed to help individual and corporate travellers resolve queries, explore cancellation support and escalate complex cases to a human agent. The project focuses on reducing repetitive support effort and creating a smoother customer experience through conversational interactions and structured handoffs. Includes a live interactive prototype and supporting case study.",
-      "tags": [
-        "AI Agents",
-        "Conversational AI",
-        "Voice UX",
-        "Customer Experience",
-        "Travel Technology",
-        "Workflow Automation",
-        "Human Handoff",
-        "Product Management"
-      ],
-      "theme": "peach",
-      "live": "https://voicebot-delta-livid.vercel.app/",
-      "github": "https://github.com/chaurasiarishika95-dotcom/voicebot",
-      "caseStudy": "",
-      "companies": [],
-      "visible": true
-    },
     {
       "id": "network-watch",
       "title": "Network Watch",
-      "category": "Network & Operations",
       "subtitle": "AI-powered transportation network control tower",
+      "category": "Network & Operations",
       "description": "A planner-in-the-loop control tower concept that brings disruption signals, network risk, and rerouting recommendations into one decision workflow. Designed to help planners assess operational impact and act on disruptions.",
       "tags": [
         "Network intelligence",
@@ -57,8 +15,8 @@
         "Optimization"
       ],
       "theme": "darkart",
-      "live": "https://network-watch-inky.vercel.app/",
-      "github": "https://github.com/chaurasiarishika95-dotcom/NetworkWatch",
+      "live": "",
+      "github": "",
       "caseStudy": "",
       "companies": [
         "amazon",
@@ -70,8 +28,8 @@
     {
       "id": "expansation",
       "title": "Expansation",
-      "category": "Network & Operations",
       "subtitle": "Network & assortment planner",
+      "category": "Network & Operations",
       "description": "A planning prototype combining capacity constraints, configurable scenarios, and optimization recommendations to support data-driven network and assortment decisions.",
       "tags": [
         "Optimization",
@@ -80,9 +38,9 @@
         "Operations"
       ],
       "theme": "green",
-      "live": "https://expansation.vercel.app/",
-      "github": "https://github.com/chaurasiarishika95-dotcom/Expansation",
-      "caseStudy": "https://drive.google.com/file/d/1a3IqaUYdpiBWG-imYKpiptYHNwJwbKHW/view?usp=sharing",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
       "companies": [
         "amazon",
         "delhivery",
@@ -135,7 +93,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": false
+      "visible": true
     },
     {
       "id": "duospark",
@@ -156,7 +114,28 @@
         "amazon",
         "product-ai"
       ],
-      "visible": false
+      "visible": true
+    },
+    {
+      "id": "district-analysis",
+      "title": "District by Zomato Analysis",
+      "subtitle": "Product & marketplace analysis",
+      "category": "Product Analysis",
+      "description": "A product-analysis project exploring the District experience, user feedback, feature opportunities, and city-level performance through structured analysis and dashboard thinking.",
+      "tags": [
+        "Product analytics",
+        "Marketplace",
+        "Power BI"
+      ],
+      "theme": "green",
+      "live": "",
+      "github": "",
+      "caseStudy": "",
+      "companies": [
+        "product-ai",
+        "marketing"
+      ],
+      "visible": true
     },
     {
       "id": "regional-ordering",
@@ -177,7 +156,7 @@
         "amazon",
         "product-ai"
       ],
-      "visible": false
+      "visible": true
     }
   ],
   "companies": [
@@ -220,13 +199,13 @@
   "settings": {
     "heroTitle": "Bridging business, tech & users",
     "heroDescription": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
-    "approachTitle": "Clear thinking.Practical execution.",
-    "education": "PGDM · Marketing & OperationsIMT Hyderabad · Top 5% of batch",
+    "approachTitle": "Clear thinking.\nPractical execution.",
+    "education": "PGDM · Marketing & Operations\nIMT Hyderabad · Top 5% of batch",
     "about1": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
     "about2": "Outside work, I build product prototypes to explore network optimisation, customer experiences, and ways AI can solve real-world problems.",
     "contactTitle": "Let’s connect.",
     "contactText": "Open to conversations about AI products, product management, and operational problem-solving.",
     "email": "chaurasiarishika848@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/rishika-chaurasia-81145a152/"
+    "linkedin": ""
   }
 }
