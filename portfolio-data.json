@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T10:21:52.875Z",
+  "updatedAt": "2026-10-19T11:03:07.667Z",
   "projects": [
     {
       "id": "voicebot-ai-post-sales-travel-assistant",
@@ -49,7 +49,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": false,
+      "visible": true,
       "hiddenForCompanies": []
     },
     {
@@ -73,7 +73,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": false,
+      "visible": true,
       "hiddenForCompanies": []
     },
     {
