@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T19:29:26.613Z",
+  "updatedAt": "2026-10-19T10:21:52.875Z",
   "projects": [
     {
       "id": "voicebot-ai-post-sales-travel-assistant",
@@ -49,7 +49,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": true,
+      "visible": false,
       "hiddenForCompanies": []
     },
     {
@@ -73,7 +73,7 @@
         "delhivery",
         "product-ai"
       ],
-      "visible": true,
+      "visible": false,
       "hiddenForCompanies": []
     },
     {
@@ -176,6 +176,13 @@
       "name": "Product & Growth Roles",
       "title": "Product & Growth Portfolio",
       "desc": "Selected work across product analysis, customer experience, marketplaces, and digital growth.",
+      "visible": true
+    },
+    {
+      "id": "makemytrip",
+      "name": "Makemytrip",
+      "title": "Portfolio for Makemytrip",
+      "desc": "I’m a Business Analyst at Cognizant with a PGDM in Marketing & Operations, working at the intersection of business, technology, and customer experience. My experience includes translating business problems into product requirements, defining user stories and acceptance criteria, prioritizing features, and collaborating with engineering teams through development and UAT.\n\nI’ve also driven an AI-powered Visa Assistant initiative that reduced query turnaround time from approximately one hour to 15 minutes, and built an AI Voice Travel Agent prototype focused on post-booking travel journeys, including booking queries, cancellations, and intelligent human handoffs.\n\nThrough these projects, I bring a combination of product thinking, analytical problem-solving, stakeholder management, and hands-on AI solutioning. I’m interested in building intuitive, data-driven travel experiences that simplify customer journeys and improve operational efficiency at MakeMyTrip",
       "visible": true
     }
   ],
