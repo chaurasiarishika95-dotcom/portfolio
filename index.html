@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Redirect old company-specific links to the default portfolio by removing any Company/company query parameter. Other query parameters (for example admin=1) are preserved. -->
+<script>
+(function () {
+  const url = new URL(window.location.href);
+  const companyKeys = Array.from(url.searchParams.keys()).filter((key) => key.toLowerCase() === "company");
+  if (companyKeys.length) {
+    companyKeys.forEach((key) => url.searchParams.delete(key));
+    const query = url.searchParams.toString();
+    const target = url.pathname + (query ? "?" + query : "") + url.hash;
+    window.location.replace(target);
+  }
+})();
+</script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="Rishika Chaurasia — AI product, business analysis, and operations portfolio." />
