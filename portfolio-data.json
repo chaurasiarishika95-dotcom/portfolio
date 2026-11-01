@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T11:03:07.667Z",
+  "updatedAt": "2026-11-01T15:14:09.186Z",
   "projects": [
+    {
+      "id": "echogifts",
+      "title": "Echogifts",
+      "category": "Customer Experience",
+      "subtitle": "AI-powered gifting platform",
+      "description": "Built an AI-powered gifting platform prototype offering personalised gift discovery and recommendations based on recipient preferences and occasions.",
+      "tags": [
+        "AI Agents",
+        "Customer Experience",
+        "Product Management"
+      ],
+      "theme": "peach",
+      "live": "https://gifting-kappa.vercel.app/",
+      "github": "https://github.com/chaurasiarishika95-dotcom/gifting",
+      "caseStudy": "https://github.com/chaurasiarishika95-dotcom/gifting/blob/main/PRD.md",
+      "companies": [],
+      "visible": true,
+      "hiddenForCompanies": []
+    },
     {
       "id": "voicebot-ai-post-sales-travel-assistant",
       "title": "Voicebot — AI Post-Sales Travel Assistant",
@@ -111,7 +130,7 @@
         "Customer experience",
         "AI-assisted development"
       ],
-      "theme": "peach",
+      "theme": "lilac",
       "live": "https://duosparks.vercel.app/",
       "github": "https://github.com/chaurasiarishika95-dotcom/duospark",
       "caseStudy": "",
