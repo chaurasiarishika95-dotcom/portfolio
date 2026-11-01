@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T15:14:09.186Z",
+  "updatedAt": "2026-11-01T15:15:15.461Z",
   "projects": [
     {
       "id": "echogifts",
@@ -13,7 +13,7 @@
         "Customer Experience",
         "Product Management"
       ],
-      "theme": "peach",
+      "theme": "blue",
       "live": "https://gifting-kappa.vercel.app/",
       "github": "https://github.com/chaurasiarishika95-dotcom/gifting",
       "caseStudy": "https://github.com/chaurasiarishika95-dotcom/gifting/blob/main/PRD.md",
