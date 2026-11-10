@@ -1,7 +1,22 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T15:15:15.461Z",
+  "updatedAt": "2026-11-10T09:41:40.801Z",
   "projects": [
+    {
+      "id": "platepal",
+      "title": "platepal",
+      "category": "AI Product",
+      "subtitle": "AI powered food chatbot",
+      "description": "AI powered food chatbot that help people select the dishes and resturants based on therir prefereance and need in Natural Language.",
+      "tags": [],
+      "theme": "green",
+      "live": "https://platepal-lake.vercel.app/",
+      "github": "https://github.com/chaurasiarishika95-dotcom/platepal",
+      "caseStudy": "",
+      "companies": [],
+      "visible": true,
+      "hiddenForCompanies": []
+    },
     {
       "id": "echogifts",
       "title": "Echogifts",
