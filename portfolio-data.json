@@ -1,14 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T09:41:40.801Z",
+  "updatedAt": "2026-11-11T12:00:00.000Z",
   "projects": [
     {
       "id": "platepal",
-      "title": "platepal",
+      "title": "PlatePal",
       "category": "AI Product",
       "subtitle": "AI powered food chatbot",
-      "description": "AI powered food chatbot that help people select the dishes and resturants based on therir prefereance and need in Natural Language.",
-      "tags": [],
+      "description": "AI food finder that helps people pick dishes and restaurants in plain language, within budget and diet needs (including Jain), allergens, opening hours and delivery time.",
+      "tags": [
+        "Conversational AI",
+        "Consumer product"
+      ],
       "theme": "green",
       "live": "https://platepal-lake.vercel.app/",
       "github": "https://github.com/chaurasiarishika95-dotcom/platepal",
@@ -19,7 +22,7 @@
     },
     {
       "id": "echogifts",
-      "title": "Echogifts",
+      "title": "EchoGifts",
       "category": "Customer Experience",
       "subtitle": "AI-powered gifting platform",
       "description": "Built an AI-powered gifting platform prototype offering personalised gift discovery and recommendations based on recipient preferences and occasions.",
@@ -41,7 +44,7 @@
       "title": "Voicebot — AI Post-Sales Travel Assistant",
       "category": "AI Product",
       "subtitle": "AI voice agent for post-booking travel support, cancellations and human handoffs",
-      "description": "Built an AI-powered voice assistant prototype for post-booking travel support, designed to help individual and corporate travellers resolve queries, explore cancellation support and escalate complex cases to a human agent. The project focuses on reducing repetitive support effort and creating a smoother customer experience through conversational interactions and structured handoffs. Includes a live interactive prototype and supporting case study.",
+      "description": "Voice assistant for post-booking travel support: booking details, safe cancellations, refund status and structured handoffs to a person. I wrote the PRD with a safety-first North Star, built a 153-case test set and ran an A/B test of fixes: pass rate 84% → 95%, unneeded handoffs 17 → 1, zero wrong cancellations.",
       "tags": [
         "Conversational AI",
         "Voice UX",
@@ -53,7 +56,7 @@
       "theme": "peach",
       "live": "https://voicebot-delta-livid.vercel.app/",
       "github": "https://github.com/chaurasiarishika95-dotcom/voicebot",
-      "caseStudy": "",
+      "caseStudy": "https://portfolio-rishika-82.vercel.app/case/voicebot.html",
       "companies": [
         "amazon",
         "delhivery",
@@ -67,7 +70,7 @@
       "title": "Network Watch",
       "category": "Network & Operations",
       "subtitle": "AI-powered transportation network control tower",
-      "description": "A planner-in-the-loop control tower concept that brings disruption signals, network risk, and rerouting recommendations into one decision workflow. Designed to help planners assess operational impact and act on disruptions.",
+      "description": "Decision support for parcel-network disruptions: estimates parcels at risk from weather, traffic, road closures and sort-centre overload, compares all 16 recovery-plan combinations with a min-cost-flow optimiser, and recommends one for a manager to approve. Gemini copilot answers only from the tool's numbers.",
       "tags": [
         "Network intelligence",
         "Capacity planning",
@@ -77,7 +80,7 @@
       "theme": "darkart",
       "live": "https://network-watch-inky.vercel.app/",
       "github": "https://github.com/chaurasiarishika95-dotcom/NetworkWatch",
-      "caseStudy": "",
+      "caseStudy": "https://portfolio-rishika-82.vercel.app/case/network-watch.html",
       "companies": [
         "amazon",
         "delhivery",
@@ -115,7 +118,7 @@
       "title": "AI Visa Assistant",
       "subtitle": "Conversational AI for Global Mobility",
       "category": "AI Product",
-      "description": "An internal AI assistant built around a RAG/NLP approach. I defined the use case and conversation flows, shaped action-oriented document workflows, specified prompt guardrails and fallbacks, and coordinated answer-quality feedback and UAT. Query turnaround reduced from approximately 60 minutes to 15 minutes.",
+      "description": "Internal AI assistant for recurring business-visa questions at Cognizant. I analysed 2,000 support tickets, prototyped it at a GenAI hackathon, then owned user stories, guardrails and 1,500-case testing while Engineering and the AI team built it. Visa process time fell from about 60 minutes to 15 (75% faster), at 86% accuracy.",
       "tags": [
         "RAG",
         "NLP",
@@ -126,7 +129,7 @@
       "theme": "blue",
       "live": "",
       "github": "",
-      "caseStudy": "",
+      "caseStudy": "https://portfolio-rishika-82.vercel.app/case/visa-assistant.html",
       "companies": [
         "amazon",
         "delhivery",
@@ -138,17 +141,18 @@
       "id": "duospark",
       "title": "DuoSpark",
       "category": "Customer Experience",
-      "subtitle": "Couple experience platform",
-      "description": "A live customer-facing product prototype with in-app video calling and an option to shop from Amazon. Built using AI-assisted development, from identifying a user need through shipping the experience.",
+      "subtitle": "AI date planning for couples",
+      "description": "Plans a weekly date both partners pick by swiping privately, finds real local places with Gemini and Google Search, hosts video-call dates with a Gemini Live voice host, and turns date photos into a narrated memory. Live MVP; built for the Google AI Startup Buildathon India 2026.",
       "tags": [
-        "Product discovery",
-        "Customer experience",
-        "AI-assisted development"
+        "Gemini Live",
+        "Google Search grounding",
+        "Consumer product",
+        "Supabase"
       ],
       "theme": "lilac",
       "live": "https://duosparks.vercel.app/",
       "github": "https://github.com/chaurasiarishika95-dotcom/duospark",
-      "caseStudy": "",
+      "caseStudy": "https://portfolio-rishika-82.vercel.app/case/duospark.html",
       "companies": [
         "amazon",
         "product-ai"
@@ -222,7 +226,7 @@
   ],
   "settings": {
     "heroTitle": "Bridging business, tech & users",
-    "heroDescription": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
+    "heroDescription": "Business Analyst at Cognizant moving into product management. I take products from a rough business problem to launch: requirements, AI guardrails, testing and post-launch metrics. Open to Associate Product Manager, Product Manager and AI product roles.",
     "approachTitle": "Clear thinking.\nPractical execution.",
     "education": "PGDM · Marketing & Operations\nIMT Hyderabad · Top 5% of batch",
     "about1": "I work with business stakeholders, product teams, engineers, AI teams, and QA to translate operational challenges into requirements and usable solutions. My experience spans AI assistants, workflow automation, reporting, process standardisation, and product delivery.",
@@ -230,6 +234,6 @@
     "contactTitle": "Let’s connect.",
     "contactText": "Open to conversations about AI products, product management, and operational problem-solving.",
     "email": "chaurasiarishika848@gmail.com",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/rishika-chaurasia-81145a152"
   }
 }
